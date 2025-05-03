@@ -410,7 +410,7 @@ void Keyboard::initKeyNames( void )
 
 			break;
 
-		case LANGUAGE_ID_UK:
+		case LANGUAGE_ID_BRITISH:
 			_set_keyname_(L'-',				L'-',				L'\0',	KEY_KPMINUS );
 			_set_keyname_(L'+',				L'+',				L'\0',	KEY_KPPLUS );
 			_set_keyname_(L'\n',			L'\n',			L'\0',	KEY_KPENTER );
