@@ -35,7 +35,7 @@ static List	DataBases;
 static LANGINFO langinfo[] = 
 	{  
 		{	LANGID_US, "US", "us", "e"},
-		{ LANGID_UK, "British", "gb", "e" },
+		{ LANGID_BRITISH, "British", "gb", "e" },
 		{ LANGID_GERMAN, "German", "ge", "g" },
 		{ LANGID_FRENCH, "French", "fr", "f" },
 		{ LANGID_SPANISH, "Spanish", "sp", "s" },
@@ -44,7 +44,7 @@ static LANGINFO langinfo[] =
 		{ LANGID_JABBER, "Jabberwockie", "jb", "e" },
 		{ LANGID_KOREAN, "Korean", "ko", "k" },
 		{ LANGID_CHINESE, "Chinese", "ch", "c" },
-		{ LANGID_UNKNOWN, "Unknown", NULL, NULL }
+		{ LANGID_UNKNOWN, "Unknown", NULL, NULL },
 		{ LANGID_UNUSED_1, "Unused_1", NULL, NULL }, // Maybe remove
 		{ LANGID_BRAZILIAN, "Brazilian", "bp" },
 		{ LANGID_POLISH, "Polish", "pl" },
